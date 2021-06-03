@@ -1,4 +1,9 @@
 {
+    "name": "agencia-anelo",
+    "version": "1.0.0",
+    "description": "Projeto da landingpage da Agência Anelo.",
+    "repository": "https://github.com/M-Plus-C/agencia-anelo",
+    "author": "Matheus Camargo Xavier <matheuscx@outlook.com>",
     "private": true,
     "scripts": {
         "dev": "npm run development",
