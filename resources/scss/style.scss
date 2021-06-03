@@ -1,0 +1,16 @@
+/*=======================================
+-> Frameworks / Libs
+  (Bootstrap, )
+=======================================*/
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+/*=======================================
+-> Helpers do projeto
+=======================================*/
+@import "helpers/variables";
+@import "helpers/mixins";
+
+/*=======================================
+-> Layout
+=======================================*/
+@import "layout/components/text";
