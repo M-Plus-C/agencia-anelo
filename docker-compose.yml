@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  server:
+    build:
+      context: ./
+      dockerfile: docker/php/dockerfile
+    image: php-8-composer/server
+    container_name: anelo-server
+    ports:
+      - "8080:8080"
+    volumes:
+      - ".:/var/www/html/"
+    command: php -S 0.0.0.0:8080 -t public/
